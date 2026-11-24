@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.eggs/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Environment / Secrets ----
+.env
+*.env
+!_.env.example
+./files/.env
+./files/.env.example
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Playwright ----
+playwright-report/
+test-results/
+
+# ---- Project-specific (Personal Data & Trackers) ----
+internship_tracker.xlsx
+~$*.xlsx
+*.xlsx
+resumes/
+files/resumes/
+resume.pdf
+*.pdf
+*.docx
+
+# ---- Logs ----
+*.log
